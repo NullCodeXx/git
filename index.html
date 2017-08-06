@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GIT</title>
+</head>
+<body>
+    <h1>GIT TERMINAL/CMD</h1>
+    <h3>if change pseudo identification</h3>
+    <p>Message error : [remote rejected] master -> master (push declined due to email privacy restrictions)
+error: failed to push some refs to 'https://github.com/solocrakoo/project-chat.git'</p>
+<p>The new path is : https://github.com/djaafarcode/project.git and not https://github.com/solocrakoo/project.git</p>
+<p>For change pseudo identification of path, it is necessary to apply commande :
+    <ul>
+        <h4>Solution</h4>
+        <li>1. pwd</li>
+        <li>2. git status</li>
+        <li>3. git remote -l ou -v </li>
+        <li>4. git remote set-url orgin http:/github/djaafar...</li>
+        <li>5. git config --get user.email</li> <!-- Si mon email est privé. -->
+        <li>6. git commit --amend --author "Djaafar Boumaza <26055564+djaafarcode@users.noreply.github.com>"</li>
+        <li>7. git rebase -i -p HEAD~2</li>
+        <li>8. Tester un git push</li>
+    </ul>
+    
+</p>
+</body>
+</html>
